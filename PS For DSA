@@ -1,0 +1,48 @@
+"Develop a Hospital Patient Record Prioritization and Medical Data Analysis System that manages patient records and supports sorting by patient ID, age, appointment time, diagnostic value, and other report fields. The system should generate department-wise reports, arrange records by appointment time, identify duplicate patient IDs, and retrieve records using an appropriate searching technique. A separate priority queue or equivalent structure should manage urgent cases according to a defined triage policy; sorting records by a general field must not replace clinical triage.
+ Implement and compare Tim Sort, Pigeonhole Sort, Comb Sort, Cocktail Shaker Sort, Tree Sort, Gnome Sort, and Stooge Sort. Test suitable algorithms on random, nearly sorted, reverse-sorted, and duplicate-heavy datasets. For Pigeonhole Sort, specify a bounded key range, and explain why Stooge Sort is primarily suitable for small demonstration datasets. Record execution time, comparisons, swaps/writes, auxiliary space, and stability wherever applicable. Use suitable searching and indexing methods to retrieve patient records."
+
+### Project Implementation Tasks
+
+**i)** Implement `MaxHeap` and `MinHeap` for the priority queue to manage urgent patient cases according to a defined triage policy.
+
+**ii)** Implement all seven sorting algorithms:
+- Tim Sort
+- Pigeonhole Sort
+- Comb Sort
+- Cocktail Shaker Sort
+- Tree Sort
+- Gnome Sort
+- Stooge Sort
+
+**iii)** Implement the patient record management system, including a suitable patient record structure with fields such as patient ID, age, appointment time, diagnostic value, and department.
+
+**iv)** Implement sorting of patient records by patient ID, age, appointment time, diagnostic value, and other relevant report fields using the seven sorting algorithms.
+
+**v)** Implement patient record searching and indexing using suitable techniques, such as binary search or hash-based indexing, to retrieve records efficiently.
+
+**vi)** Implement duplicate patient ID detection to identify multiple records containing the same patient ID.
+
+**vii)** Implement department-wise report generation to summarize and organize patient records by department.
+
+**viii)** Implement appointment scheduling and chronological arrangement of patient records by appointment time.
+
+**ix)** Implement a benchmarking framework to measure and compare the performance of all seven sorting algorithms using:
+- Execution time
+- Number of comparisons
+- Number of swaps/writes
+- Auxiliary space complexity
+- Stability
+
+**x)** Test the suitable sorting algorithms using random, nearly sorted, reverse-sorted, and duplicate-heavy datasets.
+
+**xi)** Specify a bounded integer key range for Pigeonhole Sort and implement appropriate handling of duplicate keys.
+
+**xii)** Demonstrate Stooge Sort on small datasets and explain its poor scalability using its time complexity.
+
+**xiii)** Develop a frontend for interacting with the system, allowing users to manage patient records, select sorting algorithms and fields, view reports, retrieve patient records, and compare algorithm performance.
+
+**xiv)** Integrate the frontend with the C++ backend and test the complete system for correctness, functionality, and performance.
+
+---
+
+**Note:** Keep the priority queue separate from the general sorting functionality. Sorting patient records by ID, age, or appointment time must not determine clinical urgency; urgent-case management should follow the defined triage policy.
