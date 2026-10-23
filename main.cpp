@@ -345,7 +345,7 @@ int main()
             cout<<"By Master Theorem:   Time Complexity = O(n^(log_1.5 3)) ~= O(n^2.7095)\n";
             cout<<"Auxiliary Space:     O(log n) recursion stack depth\n";
             cout<<"Practical Impact:    Extremely poor scalability. While Tim Sort takes O(n log n)\n";
-            cout<<"                     operations, Stooge Sort takes millions of operations even for small N.\n";
+            cout<<"                     operations, Stooge Sort takes thousands of operations even for small N.\n";
             cout<<"                     Therefore, Stooge Sort is strictly for demonstration (capped at N<=64).\n\n";
 
             cout<<"Running demonstration for N in {4, 8, 16, 32, 64}:\n";
