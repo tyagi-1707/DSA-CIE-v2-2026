@@ -71,3 +71,12 @@ The backend is split into small headers so each concern can be reviewed independ
 | `main.cpp` | Main menu and user interaction |
 
 The Headers are self-contained with include guards. `pq.h` and `sbbst_v2.h` do not include each other, preventing the circular include from the original files. Compile `main.cpp` as before; no separate compilation step is needed for header-only modules.
+
+## Independent Member Contributions
+To be completed
+| Member | Contribution |
+|---|---|
+| `Shrinidhi Sardeshmukh - 23169` | Shared patient record model |
+| `Siddhant Singh - 23172` | Tree Sort |
+| `Ekaksh Tyagi - 23178` | AVL tree + Custom Priority Queue + Comb Sort |
+| `Chinmay Mahajan - 23185` | Stooge Sort + Analysis + Pigeonhole Sort |
