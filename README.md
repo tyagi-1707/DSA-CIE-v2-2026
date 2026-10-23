@@ -70,4 +70,4 @@ The backend is split into small headers so each concern can be reviewed independ
 | `record_io.h` | Console input/output helpers |
 | `main.cpp` | Main menu and user interaction |
 
-Headers are self-contained with include guards. `pq.h` and `sbbst_v2.h` do not include each other, preventing the circular include from the original files. Compile `main.cpp` as before; no separate compilation step is needed for header-only modules.
+The Headers are self-contained with include guards. `pq.h` and `sbbst_v2.h` do not include each other, preventing the circular include from the original files. Compile `main.cpp` as before; no separate compilation step is needed for header-only modules.
